@@ -1,0 +1,8 @@
+task assignedTask {
+   doLast{
+      println " Write complex code"
+   }
+   doFirst{
+      println "Use build tools"
+   }
+}
